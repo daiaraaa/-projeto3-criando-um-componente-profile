@@ -4,7 +4,7 @@ export default function Profile(props){
     return(
         <div className={styles.bloco}>
             <img src={props.img} />
-            <h1 className={styles.name}>{props.name}</h1>
+            <h2 className={styles.name}>{props.name}</h2>
             <hr />
             <p className={styles.bio} >{props.bio}</p>
             <hr />
