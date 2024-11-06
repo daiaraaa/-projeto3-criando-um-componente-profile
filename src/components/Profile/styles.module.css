@@ -1,0 +1,70 @@
+*{
+    font-family: system-ui;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+
+.bloco{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    border-radius: 40px;
+    max-width: 600px;
+    box-shadow: 10px black;
+    padding: 30px;
+}
+
+.name {
+   margin: 15px;
+}
+
+.bio {
+    margin: 10px;
+}
+.contact {
+    margin: 10px;
+}
+
+.email {
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-weight: 800;
+}
+
+
+
+button{
+    width: 150px;
+    height: 40px;
+    background: black;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin: 10px;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: rgb(131, 126, 126);
+    cursor: pointer;
+    transform: scale(1.04);
+}
+hr {
+    color:black;
+    width: 450px;
+    border-top: 2px solid; 
+    margin: 2px; 
+}
