@@ -58,6 +58,7 @@ button{
     color: white;
     border: none;
     background: linear-gradient(#297BC2,#3588C8, #6DC4E3);
+    box-shadow: 1px 1px 1px 1px #999;
 }
 
 button:hover{
