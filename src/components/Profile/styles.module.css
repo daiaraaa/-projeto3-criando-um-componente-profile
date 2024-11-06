@@ -50,11 +50,14 @@ a{
 button{
     width: 150px;
     height: 40px;
-    background: black;
     border-radius: 15px;
     margin-bottom: 5px;
     margin: 10px;
     transition: .3s;
+    color: white;
+    border: none;
+    background: linear-gradient(#297BC2,#3588C8, #6DC4E3);
+}
 }
 
 button:hover{
@@ -63,8 +66,8 @@ button:hover{
     transform: scale(1.04);
 }
 hr {
-    color:black;
     width: 550px;
-    border-top: 2px solid; 
-    margin: 2px; 
+    border: none;
+    border-top: 2px solid #428CD1; 
+    margin: 2px 0; 
 }
