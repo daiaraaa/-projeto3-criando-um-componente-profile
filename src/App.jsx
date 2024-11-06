@@ -7,7 +7,7 @@ export default function App() {
            img={'./eu.jpeg'}
            name={'Daiara Barroso'} 
            bio={'Estudante de Desenvolvimento de Sistemas'} 
-           contact={'+ 55 85994334741'} 
+           contact={'+55 (85)994334741'} 
            email={'daiarabarroso09@gmail.com'} 
            githubUrl={'https://github.com/daiaraaa'} 
            instagramUrl={'https://instagram.com/daiarabarroso'} 
