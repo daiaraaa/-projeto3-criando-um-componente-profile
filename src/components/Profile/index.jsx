@@ -12,6 +12,7 @@ export default function Profile(props){
             <hr />
             <p className={styles.email}>{props.email}</p>
             <hr />
+            <br></br>
             <button><a href={props.githubUrl}>Github</a></button>
             <button><a href={props.instagramUrl}>Instagram</a></button>
             <button><a href={props.letterboxdUrl}>Letterboxd</a></button>
